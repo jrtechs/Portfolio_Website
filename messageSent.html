@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Portfolio website for Jeffery Russell a computer science student at RIT">
+    <meta name="author" content="Jeffery Russell">
+
+    <title>Jeffery Russell</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic"
+          rel="stylesheet" type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/freelancer.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="index.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="index.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="Jeffery_Russell_Resume.pdf">Resume</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav navbar-right">
+                <li  class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="https://jrtechs.net">Blog</a>
+                </li>
+                <li  class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="https://github.com/jrtechs">Github</a>
+                </li>
+                <li  class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="https://www.youtube.com/c/JrtechsNet">Youtube</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Header -->
+<header class="masthead">
+    <div class="container">
+
+        <div class="intro-text">
+            <span class="name">Jeffery Russell</span>
+            <hr class="star-light">
+            <span class="skills">Computer Science Student at RIT</span>
+        </div>
+    </div>
+</header>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 p-3">
+            <center><h1 class="align-content-center">Message Sent</h1></center>
+            Thank you for sending me a message. I will try my best to
+            get back to you within a week. In the meantime, feel free to
+            check out my Github and youtube.
+        </div>
+
+        <div class="col-md-6 p-6">
+            <div class="d-flex justify-content-center">
+                <p><iframe width="560" height="315" src="https://www.youtube.com/embed/DoDaHmyIPvQ"
+                           frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Footer -->
+<footer class="text-center">
+    <div class="footer-above">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col col-md-4">
+                    <h3>Location</h3>
+                    <p>Rochester Institute of Technology
+                        <br>1 Lomb Memorial Dr, Rochester, NY 14623</p>
+                </div>
+                <div class="footer-col col-md-4">
+                    <h3>Around the Web</h3>
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <a class="btn-social btn-outline" href="https://www.youtube.com/c/JrtechsNet">
+                                <i class="fa fa-fw fa-youtube"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn-social btn-outline" href="https://github.com/jrtechs">
+                                <i class="fa fa-fw fa-github"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn-social btn-outline" href="http://jrtechs.net">
+                                <i class="fa fa-fw fa-wordpress"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-col col-md-4">
+                    <h3>About This Website</h3>
+                    <p>Check out the source code for this website on my
+                        <a href="https://github.com/jrtechs">github</a>.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-below">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    Copyright &copy; Jrtechs.me 2018
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+<div class="scroll-top d-lg-none">
+    <a class="btn btn-primary js-scroll-trigger" href="#page-top">
+        <i class="fa fa-chevron-up"></i>
+    </a>
+</div>
+
+
+
+<!-- Bootstrap core JavaScript -->
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="js/jquery.easing.min.js"></script>
+
+<script>
+    $("form").submit(function(event) {
+
+        var recaptcha = $("#g-recaptcha-response").val();
+        if (recaptcha === "") {
+            event.preventDefault();
+            alert("Please check the recaptcha");
+        }
+    });
+</script>
+
+<!-- For contact form -->
+<script src='https://www.google.com/recaptcha/api.js'></script>
+
+
+<!--
+                      __,,,,_
+     _ __..-;''`--/'/ /.',-`-.
+ (`/' ` |  \ \ \\ / / / / .-'/`,_
+/'`\ \   |  \ | \| // // / -.,/_,'-,
+/<7' ;  \ \  | ; ||/ /| | \/    |`-/,/-.,_,/')
+/  _.-, `,-\,__|  _-| / \ \/|_/  |    '-/.;.\'
+`-`  f/ ;      / __/ \__ `/ |__/ |
+   `-'      |  -| =|\_  \  |-' |
+         __/   /_..-' `  ),'  //
+     fL ((__.-'((___..-'' \__.'
+Wacha doing here?
+Check out more of my code at https://github.com/jrtechs
+
+-->
+
+</body>
+
+</html>

@@ -234,11 +234,6 @@
 
           </div>
           <div class="col-lg-4 mr-auto">
-              <!--
-            <p>I am very passionate about coding and the open source community. Over the course of my life I
-              have strove to learn more. Currently I know 9 programming languages: PHP, Java, Python, SQL, HTML,
-              Bash, Java Script, C and VB. </p>
-              -->
               <p>I am a self proclaimed geek; I have been programming since I salvaged parts to build a computer when
                   I was in 6th grade. Computers are my lifeblood. When I am not programming - or reading - I enjoy
                   excising and riding my bike.</p>
@@ -900,6 +895,17 @@
 
     <!-- Plugin JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
+
+    <script>
+        $("form").submit(function(event) {
+
+            var recaptcha = $("#g-recaptcha-response").val();
+            if (recaptcha === "") {
+                event.preventDefault();
+                alert("Please check the recaptcha");
+            }
+        });
+    </script>
 
     <!-- For contact form -->
     <script src='https://www.google.com/recaptcha/api.js'></script>

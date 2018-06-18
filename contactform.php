@@ -64,7 +64,7 @@ if(isset($_POST['submit']))
 
 
                 mail($toEmail, $subject, $message, $headers);
-                header('Location:https://jrtechs.me/index.html');
+                header('Location:https://jrtechs.me/messageSent.html');
             }
         }
 
