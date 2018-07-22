@@ -58,10 +58,10 @@ hr.star-light:after {
   background-color: #18BC9C; }
 
 hr.star-primary {
-  border-color: #2C3E50; }
+  border-color: #3B536B; }
 
 hr.star-primary:after {
-  color: #2C3E50;
+  color: #3B536B;
   background-color: white; }
 
 .img-centered {
@@ -105,7 +105,7 @@ section.success {
   font-weight: 700;
   text-transform: uppercase;
   border: none;
-  background: #2C3E50; }
+  background: #3B536B; }
   #mainNav a:focus {
     outline: none; }
   #mainNav .navbar-brand {
@@ -133,7 +133,7 @@ section.success {
       border-color: #18BC9C;
       background-color: #18BC9C; }
 
-@media (min-width: 992px) {
+@media (min-width: 992  px) {
   #mainNav {
     padding-top: 25px;
     padding-bottom: 25px;
@@ -271,7 +271,7 @@ header.masthead {
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
-    background-color: #2C3E50; }
+    background-color: #3B536B; }
     .portfolio-modal .close-modal .lr .rl {
       /* Safari and Chrome */
       z-index: 1052;
@@ -281,7 +281,7 @@ header.masthead {
       -webkit-transform: rotate(90deg);
       -ms-transform: rotate(90deg);
       transform: rotate(90deg);
-      background-color: #2C3E50; }
+      background-color: #3B536B; }
 
 .portfolio-modal .modal-backdrop {
   display: none;
@@ -339,12 +339,12 @@ footer {
     margin-bottom: 30px; }
   footer .footer-above {
     padding-top: 50px;
-    background-color: #2C3E50; }
+    background-color: #3B536B; }
   footer .footer-col {
     margin-bottom: 50px; }
   footer .footer-below {
     padding: 25px 0;
-    background-color: #2c3e50; }
+    background-color: #3B536B; }
 
 .btn-outline {
   font-size: 20px;
@@ -361,8 +361,8 @@ footer {
 .btn-primary {
   font-weight: 700;
   color: white;
-  border-color: #2C3E50;
-  background-color: #2C3E50; }
+  border-color: #3B536B;
+  background-color: #3B536B; }
   .btn-primary.focus, .btn-primary:focus {
     color: white;
     border-color: black;
@@ -390,10 +390,10 @@ footer {
   fieldset[disabled] .btn-primary.focus,
   fieldset[disabled] .btn-primary:focus,
   fieldset[disabled] .btn-primary:hover {
-    border-color: #2C3E50;
-    background-color: #2C3E50; }
+    border-color: #3B536B;
+    background-color: #3B536B; }
   .btn-primary .badge {
-    color: #2C3E50;
+    color: #3B536B;
     background-color: white; }
 
 .btn-success {

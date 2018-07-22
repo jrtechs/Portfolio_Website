@@ -22,3 +22,5 @@ On the contact form I use google's
 The secret for the captcha goes in a text file above the root 
 directory for this website called "captchaSecret.txt". The destination
 email address is stored above the root directory in a file called "email.txt".
+
+https://www.google.com/recaptcha/admin
