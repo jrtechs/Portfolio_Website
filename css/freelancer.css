@@ -79,7 +79,8 @@ section {
 
 section.success {
   color: white;
-  background: #37ADBE; }
+  background: url("../img/background_2.png") center center fixed;
+}
 
 @media (max-width: 767px) {
   section {
@@ -184,7 +185,7 @@ header.masthead {
   header.masthead .intro-text .name
   {
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size:7vw;
+    font-size:6vw;
     font-weight: 700;
     display: block;
     text-transform: uppercase; 
@@ -192,7 +193,7 @@ header.masthead {
   }
   header.masthead .intro-text .skills
   {
-    font-size: 1.25em;
+    font-size:2vw;
     font-weight: 300; 
   }
 
@@ -480,13 +481,11 @@ footer a{
 
 
   .banner {
-    background: #384859;
+    background: transparent;
     background: url("../img/background_light.png") center center fixed;
-    box-sizing: border-box;
     color: #fff;
     display: block;
-    margin: 0 auto;
-    padding: 10px 0;
+
     position: relative;
     min-height: 350px;
     height: 100vh !important;

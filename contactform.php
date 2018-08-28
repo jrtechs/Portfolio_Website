@@ -8,16 +8,17 @@
  * @author Jeffery Russell 6-17-18
  */
 
+$secret_file_path = '../captchaSecret.txt';
+$personal_email_path = '../email.txt';
+
+
 if(isset($_POST['submit']))
 {
     if(isset($_POST['g-recaptcha-response']))
     {
-        $secret_file_path = '../captchaSecret.txt';
         $secret = file_get_contents($secret_file_path, FILE_USE_INCLUDE_PATH);
 
-        $personal_email_path = '../email.txt';
         $toEmail = file_get_contents($personal_email_path, FILE_USE_INCLUDE_PATH);
-
 
         if($secret === false)
         {
