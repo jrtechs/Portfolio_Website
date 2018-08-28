@@ -53,11 +53,13 @@ hr.star-primary:after {
   content: '\f005'; }
 
 hr.star-light {
-  border-color: white; }
+  border-color: white; 
+}
 
 hr.star-light:after {
   color: white;
-  background-color: #37ADBE; }
+  background-color: #4D71A1; 
+}
 
 hr.star-primary {
   border-color: #2C3E50; }
@@ -165,28 +167,43 @@ header.masthead {
   padding-bottom: 50px;
   text-align: center;
   color: white;
-  background: #37ADBE; }
+  /* background: #37ADBE;  */
+}
   header.masthead img {
     display: block;
     margin: 0 auto 20px; }
-  header.masthead .intro-text .name {
+
+  .intro-text
+  {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  header.masthead .intro-text .name
+  {
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 2em;
+    font-size:7vw;
     font-weight: 700;
     display: block;
-    text-transform: uppercase; }
-  header.masthead .intro-text .skills {
-    font-size: 1.25em;
-    font-weight: 300; }
+    text-transform: uppercase; 
 
-@media (min-width: 768px) {
+  }
+  header.masthead .intro-text .skills
+  {
+    font-size: 1.25em;
+    font-weight: 300; 
+  }
+
+/* @media (min-width: 768px) {
   header.masthead {
     padding-top: 200px;
     padding-bottom: 100px; }
     header.masthead .intro-text .name {
       font-size: 4.75em; }
     header.masthead .intro-text .skills {
-      font-size: 1.75em; } }
+      font-size: 1.75em; } } */
 
 #portfolio .portfolio-item {
   right: 0;
@@ -458,3 +475,19 @@ footer a{
 .btn:active,
 .btn:focus {
   outline: none; }
+
+
+
+
+  .banner {
+    background: #384859;
+    background: url("../img/background_light.png") center center fixed;
+    box-sizing: border-box;
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 0;
+    position: relative;
+    min-height: 350px;
+    height: 100vh !important;
+  }
