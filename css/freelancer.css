@@ -61,6 +61,11 @@ hr.star-light:after {
   background-color: #4D71A1; 
 }
 
+hr.star-light2:after {
+  color: white;
+  background-color: #4ACADF; 
+}
+
 hr.star-primary {
   border-color: #2C3E50; }
 
@@ -193,7 +198,7 @@ header.masthead {
   }
   header.masthead .intro-text .skills
   {
-    font-size:2vw;
+    font-size:4vw;
     font-weight: 300; 
   }
 
@@ -372,7 +377,8 @@ footer a{
     margin-bottom: 50px; }
   footer .footer-below {
     padding: 25px 0;
-    background-color: #2C3E50; }
+    background-color: #1a252f; 
+  }
 
 .btn-outline {
   font-size: 20px;
