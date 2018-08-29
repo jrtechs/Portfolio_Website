@@ -63,7 +63,7 @@ hr.star-light:after {
 
 hr.star-light2:after {
   color: white;
-  background-color: #4ACADF; 
+  background-color: #3096E0;
 }
 
 hr.star-primary {
@@ -84,7 +84,7 @@ section {
 
 section.success {
   color: white;
-  background: url("../img/background_2.png") center center fixed;
+  background: url("../img/background_3.png") center center fixed;
 }
 
 @media (max-width: 767px) {
