@@ -1,0 +1,12 @@
+services:
+  portfolio:
+    build: .
+    ports:
+      - "4001:4001"
+    container_name: portfolio-website
+    networks:
+      - external-network
+
+networks:
+  external-network:
+    external: true
